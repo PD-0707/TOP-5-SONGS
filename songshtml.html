@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./songscss.css">
+</head>
+<body>
+   
+    <div class="music-container">
+        <h1>My Top 5 Songs</h1>
+        <div class="song-list">
+            <div class="song" data-song="music/Dandelions.mp3.mp3">
+                <img src="./images/dandelions.jpg" alt="Song 1">
+                <p>Dandelions</p>
+            </div>
+            <div class="song" data-song="music/Heat Waves.mp3">
+                <img src="./images/heatwaves.jpg" alt="Song 2">
+                <p>Heat Waves</p>
+            </div>
+            <div class="song" data-song="music/I Wanna Be Yours.mp3">
+                <img src="./images/iwannabeyours.jpg" alt="Song 3">
+                <p>I Wanna Be Yours</p>
+            </div>
+            <div class="song" data-song="music/Perfect.mp3">
+                <img src="./images/perfect.jpg" alt="Song 4">
+                <p>Perfect</p>
+            </div>
+            <div class="song" data-song="music/Until I Found You.mp3">
+                <img src="./images/untilifoundyou.jpg" alt="Song 5">
+                <p>Until I Found You</p>
+            </div>
+        </div>
+        <audio id="audioPlayer"></audio>
+    </div>
+    <script src="song.js"></script>
+</body>
+</html>
